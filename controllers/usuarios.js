@@ -56,7 +56,7 @@ const usuariosPut = async (req, res = response) => {
     res.json(usuario);
 }
 
-const usuariosPatch = (req, res = response) => {
+const usuariosPatch = ( res = response) => {
     
 
     res.json({
